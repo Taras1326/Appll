@@ -12,7 +12,7 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     
     <script type="module" crossorigin src="/Appll/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Appll/assets/index-4b039faf.css">
+    <link rel="stylesheet" href="/Appll/assets/index-d5d3c9ab.css">
   </head>
   <body>
 
@@ -35,12 +35,14 @@
         </a>
     </div>
     <div class="menu is-hidden" data-header-modal>
+        <div class="menu__wrap">
         <button type="button" class="menu__btn" data-modal-header-close>
-            <svg class="menu__close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                <path d="M18.0915 5.36396C18.482 5.75449 18.482 6.38765 18.0915 6.77818L13.1425 11.7272L18.0915 16.6777C18.482 17.0682 18.482 17.7014 18.0915 18.0919C17.701 18.4824 17.0678 18.4824 16.6773 18.0919L11.7282 13.1414L6.77779 18.0919C6.38727 18.4824 5.7541 18.4824 5.36358 18.0919C4.97306 17.7014 4.97306 17.0682 5.36358 16.6777L10.314 11.7272L5.36358 6.77817C4.97306 6.38764 4.97306 5.75448 5.36358 5.36396C5.75411 4.97343 6.38727 4.97343 6.7778 5.36396L11.7282 10.313L16.6773 5.36396C17.0678 4.97344 17.701 4.97344 18.0915 5.36396Z" fill="white" fill-opacity="0.8"/>
-              </svg>
+            <svg class="menu__close">
+                <use href="../img/symbol.defs.svg#close"></use>
+            </svg>
         </button>
-        <img src="../img/bose.webp" alt="">
+        <a href="https://bose-nc700.vercel.app/#characteristics"><img src="../img/bose.webp" alt=""></a>
+    </div>
         <ul class="menu__list">
           <li class="menu__item"><a href="#" class="menu__link">Characteristics</a></li>
           <li class="menu__item"><a href="#" class="menu__link">History</a></li>
@@ -49,7 +51,7 @@
         </ul>
     </div>
 </section>
-<script src="../burger.js"></script>
+<script src="./burger.js"></script>
     <section class="hero">
   <div class="container">
     <div class="hero__wrapper">
@@ -63,8 +65,10 @@
           <p class="hero__subtext">Up to 20 hours of playback</p>
         </li>
       </ul>
+      <div class="hero__box">
       <h1 class="hero__title">Headphones Bose NC 700</h1>
       <button type="button" class="hero__button" data-modal-open>order</button>
+    </div>
     </div>
     <img src="/Appll/assets/eaerphones-24099c83.png" alt="" class="hero__img" />
   </div>
@@ -212,7 +216,7 @@
                     in one click using a special button.</p>
             </li>
             <li class="luxury__item">
-                <h3 class="luxury__subtitle">Crystal sound</h3>
+                <h3 class="luxury__subtittle">Crystal sound</h3>
                 <p class="luxury__text">The speaker system and brand name active equalizer are able to provide high-quality and powerful sound at 
                     any volume level. You can be sure of 
                     no distortion and crystal clear at high and low frequencies.</p>
@@ -234,7 +238,7 @@
         </div>
     </div>
 </section>
-    <section class="guarantes">
+    <!-- <section class="guarantes">
   <div class="container guarantes__boxx">
       <img class="guarantes__img" src="../img/navusnili.jpg" alt="" />
      <div class="guarantes__div">
@@ -253,7 +257,7 @@ if your headphones are broken, we will
 send you new ones.</p>
      </div>
   </div>
-</section>
+</section> -->
     
     
     <section class="faq" id="faq">
